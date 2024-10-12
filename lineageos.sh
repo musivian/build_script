@@ -71,6 +71,6 @@ git clone https://github.com/dpenra-sunny/android_frameworks_base.git --depth 1 
 # set build environment
 . build/envsetup.sh
 # lunch
-riseup sunny user
+breakfast sunny
 # make
-rise b
+brunch sunny

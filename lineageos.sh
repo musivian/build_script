@@ -45,7 +45,7 @@ git clone https://github.com/alonsoj636MW/device_xiaomi_sunny.git --depth 1 -b 1
 git clone https://github.com/AOSPA/android_device_qcom_qssi.git --depth 1 -b uvite device/qcom/qssi
 git clone https://github.com/yaap/device_qcom_common.git --depth 1 -b fourteen device/qcom/common
 # kernel tree
-git clone https://github.com/Neternels/android_kernel_xiaomi_sunny.git --depth 1 -b LA.UM.9.1 kernel/xiaomi/sunny
+git clone https://github.com/Neternels/android_kernel_xiaomi_sunny.git --depth 1 -b staging kernel/xiaomi/sunny
 # vendor tree
 git clone https://github.com/PixelOS-Devices/vendor_xiaomi_sunny.git --depth 1 -b fourteen vendor/xiaomi/sunny
 git clone https://gitlab.com/yaosp/vendor_qcom_common.git --depth 1 -b fourteen vendor/qcom/common

@@ -55,7 +55,7 @@ git clone https://github.com/PixelOS-Devices/vendor_xiaomi_sunny.git --depth 1 -
 git clone https://gitlab.com/yaosp/vendor_qcom_common.git --depth 1 -b fourteen vendor/qcom/common
 git clone https://github.com/yaap/vendor_qcom_opensource_core-utils.git --depth 1 -b fourteen vendor/qcom/opensource/core-utils
 # git clone https://github.com/dpenra-sunny/vendor_lineage-priv_keys.git --depth 1 -b master vendor/lineage-priv/keys
-git clone https://github.com/Chaitanyakm/vendor_bcr.git --depth 1 -b main vendor/bcr
+# git clone https://github.com/Chaitanyakm/vendor_bcr.git --depth 1 -b main vendor/bcr
 git clone https://gitlab.com/dpenra/android_vendor_xiaomi_mojito-leicacamera.git --depth 1 -b main vendor/xiaomi/mojito-leicacamera
 git clone https://github.com/dpenra-apps/android_vendor_xiaomi_miuiapps.git --depth 1 -b main vendor/xiaomi/miuiapps
 # hardware tree
@@ -66,7 +66,7 @@ git clone https://github.com/StatiXOS/android_prebuilts_gcc_linux-x86_arm_arm-ea
 # packages
 git clone https://github.com/cyberknight777/android_packages_apps_DisplayFeatures.git --depth 1 -b master packages/apps/DisplayFeatures
 git clone https://github.com/KProfiles/android_packages_apps_Kprofiles.git --depth 1 -b main packages/apps/KProfiles
-git clone https://github.com/xiaomi-begonia-dev/android_packages_apps_ViPER4AndroidFX.git --depth 1 -b fourteen packages/apps/ViPER4AndroidFX
+# git clone https://github.com/xiaomi-begonia-dev/android_packages_apps_ViPER4AndroidFX.git --depth 1 -b fourteen packages/apps/ViPER4AndroidFX
 # source mods
 git clone https://github.com/yaap/hardware_qcom-caf_sm8150_media.git --depth 1 -b fourteen hardware/qcom-caf/sm8150/media
 git clone https://github.com/dpenra-sunny/android_packages_apps_Updater.git --depth 1 -b fourteen packages/apps/Updater

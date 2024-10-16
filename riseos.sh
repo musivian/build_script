@@ -37,7 +37,6 @@ repo init -u https://github.com/RisingTechOSS/android -b fourteen --git-lfs
 # remove directory
 rm -rf hardware/qcom-caf/sm8150/media
 rm -rf vendor/lineage
-rm -rf packages/apps/Updater
 rm -rf frameworks/base
 # cloning DT
 # device tree

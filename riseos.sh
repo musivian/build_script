@@ -2,34 +2,6 @@
 
 # Remove local manifests if they exist
 rm -rf .repo/local_manifests/
-# remove device
-rm -rf device/xiaomi/sunny
-rm -rf device/xiaomi/sunny-kernel
-rm -rf device/qcom/qssi
-rm -rf device/qcom/common
-# remove kernel
-rm -rf kernel/xiaomi/sunny
-# remove vendor
-rm -rf vendor/xiaomi/sunny
-rm -rf vendor/qcom/common
-rm -rf vendor/qcom/opensource/core-utils
-rm -rf vendor/lineage-priv/keys
-rm -rf vendor/bcr
-rm -rf vendor/xiaomi/mojito-leicacamera
-rm -rf vendor/xiaomi/miuiapps
-# remove hardware
-rm -rf hardware/xiaomi
-# remove prebuilts
-rm -rf prebuilts/gcc/linux-x86/aarch64/aarch64-elf
-rm -rf prebuilts/gcc/linux-x86/arm/arm-eabi
-# remove packages
-rm -rf packages/apps/DisplayFeatures
-rm -rf packages/apps/KProfiles
-rm -rf packages/apps/ViPER4AndroidFX
-# remove source mod
-rm -rf hardware/qcom-caf/sm8150/media
-rm -rf packages/apps/Updater
-rm -rf vendor/lineage
 # Initialize ROM manifest
 repo init -u https://github.com/RisingTechOSS/android -b fourteen --git-lfs
 # repo sync

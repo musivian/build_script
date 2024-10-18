@@ -15,7 +15,7 @@ rm -rf vendor/lineage                   # Remove existing LineageOS vendor files
 
 # Clone the device tree repositories for Xiaomi Sunny and related kernel, common configurations
 # Device-specific tree
-git clone https://github.com/alonsoj636MW/device_xiaomi_sunny.git --depth 1 -b fourteen device/xiaomi/sunny
+git clone https://github.com/alonsoj636MW/device_xiaomi_sunny.git --depth 1 -b 14 device/xiaomi/sunny
 git clone https://github.com/dpenra-sunny/device_xiaomi_sunny-kernel.git --depth 1 -b fourteen device/xiaomi/sunny-kernel
 
 # Clone Qualcomm common device tree (QSSI) and shared Qualcomm configurations

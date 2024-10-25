@@ -16,8 +16,8 @@ rm -rf hardware/xiaomi
 
 # Clone the device tree repositories for Xiaomi Sunny and related kernel, common configurations
 # Device-specific tree
-git clone https://github.com/dpenra-sunny/device_xiaomi_sunny.git --depth 1 -b fourteen device/xiaomi/sunny
-git clone https://github.com/dpenra-sunny/device_xiaomi_sunny-kernel.git --depth 1 -b fourteen device/xiaomi/sunny-kernel
+git clone https://github.com/musivian/device_xiaomi_sunny.git --depth 1 -b fourteen device/xiaomi/sunny
+git clone https://github.com/musivian/device_xiaomi_sunny-kernel.git --depth 1 -b fourteen device/xiaomi/sunny-kernel
 
 # Clone Qualcomm common device tree (QSSI) and shared Qualcomm configurations
 git clone https://github.com/AOSPA/android_device_qcom_qssi.git --depth 1 -b uvite device/qcom/qssi
@@ -32,7 +32,7 @@ git clone https://gitlab.com/yaosp/vendor_qcom_common.git --depth 1 -b fourteen 
 git clone https://github.com/yaap/vendor_qcom_opensource_core-utils.git --depth 1 -b fourteen vendor/qcom/opensource/core-utils
 
 # Clone hardware-specific files for Xiaomi devices
-git clone https://github.com/dpenra-sunny/hardware_xiaomi.git --depth 1 -b fourteen hardware/xiaomi
+git clone https://github.com/musivian/hardware_xiaomi.git --depth 1 -b fourteen hardware/xiaomi
 
 # Clone prebuilt GCC compilers (used for building the kernel and other components)
 git clone https://github.com/StatiXOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-elf.git --depth 1 -b 14.0.0 prebuilts/gcc/linux-x86/aarch64/aarch64-elf
@@ -44,7 +44,7 @@ git clone https://github.com/KProfiles/android_packages_apps_Kprofiles.git --dep
 
 # Clone source modifications, including media hardware and vendor Lineage files
 git clone https://github.com/yaap/hardware_qcom-caf_sm8150_media.git --depth 1 -b fourteen hardware/qcom-caf/sm8150/media
-git clone https://github.com/dpenra-sunny/android_vendor_lineage.git --depth 1 -b fourteen vendor/lineage
+git clone https://github.com/musivian/android_vendor_lineage.git --depth 1 -b fourteen vendor/lineage
 
 # Set up the build environment (source environment setup script)
 . build/envsetup.sh
